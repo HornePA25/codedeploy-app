@@ -3,11 +3,14 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      python: 3.11
+      python: latest
   build:
     commands:
-      - echo "Building project"
-      - zip -r app.zip .
+      - echo Build started on `date`
+      - echo Build completed on `date`
+
 artifacts:
   files:
-    - app.zip
+    - index.html
+    - appspec.yml
+    - scripts/**
