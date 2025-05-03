@@ -1,1 +1,2 @@
 This is a test commit for CodePipeline!
+For this commit, I re-established a connection between GitHub and AWS via editing the Source in the CodePipeline.
